@@ -1,7 +1,6 @@
 # Oystercard
 
 [![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop/rubocop)
-require 'simplecov_small_badge'
 
 ## User Stories
 
@@ -54,3 +53,10 @@ In order to be charged the correct amount
 As a customer
 I need to have the correct fare calculated
 ```
+
+
+## Reflections
+
+**Challenge 6:**
+- I made a new variable, new_balance, because my `@balance + amount > 90` guard condition was failing the tests. 
+- But all I needed to do was use `balance + amount`
