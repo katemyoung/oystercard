@@ -55,11 +55,14 @@ I need to have the correct fare calculated
 ```
 
 
-## Reflections
+### Reflections
 
 **Challenge 6:**
 - I made a new variable, new_balance, because my `@balance + amount > 90` guard condition was failing the tests. 
 - But all I needed to do was use `balance + amount`
 
-**Questions**
+**Challenge 10**
+- I changed deduct method to a private method, and then removed the tests for this method, as it is covered by the touch_out method tests.
+
+### Questions
 - What is the best practice for Rspec spec descriptions. To use or avoid 'can'?
