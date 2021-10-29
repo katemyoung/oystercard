@@ -60,3 +60,6 @@ I need to have the correct fare calculated
 **Challenge 6:**
 - I made a new variable, new_balance, because my `@balance + amount > 90` guard condition was failing the tests. 
 - But all I needed to do was use `balance + amount`
+
+**Questions**
+- What is the best practice for Rspec spec descriptions. To use or avoid 'can'?
